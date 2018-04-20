@@ -1,0 +1,26 @@
+--------------------for sqlite3-------------------------------------------
+
+create table messages(
+id INTEGER PRIMARY KEY,
+message_content text not null,
+sender_id int not null,
+receiver_id int not null,
+flag int
+);
+
+insert into messages(message_content,sender_id,receiver_id) values('hello world',1,2);
+
+
+create table users(
+id INTEGER PRIMARY KEY,
+user_name text not null,
+password text not null,
+token text
+);
+
+insert into users(user_name,password,token) 
+values('heihei','heiheipassword','f5lQT-ljXd8:APA91bHfYD8kzyE3zSu3otGUB-VlDaQzH6heVl_MKkYUKB3afTZz540bJGk-b14xyR5-PeO-iYOVM6Ij4xS059MIysLZOXmLYNiCovQud5MraDkFqB1iwibnGucC86ZbIgTB3hdxkgXH')
+
+sqlite> .header on
+sqlite> .mode column
+

@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>testServlet</servlet-name>
+  	<display-name>testServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.whoeverlovely.chatapp.servlet.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForwardServlet</servlet-name>
+  	<display-name>ForwardServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.whoeverlovely.chatapp.servlet.ForwardServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReceiverServlet</servlet-name>
+  	<display-name>ReceiverServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.whoeverlovely.chatapp.servlet.ReceiverServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>tokenHandlerServlet</servlet-name>
+  	<display-name>tokenHandlerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.whoeverlovely.chatapp.servlet.TokenHandlerServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  	<servlet-name>testServlet</servlet-name>
+  	<url-pattern>/testServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForwardServlet</servlet-name>
+  	<url-pattern>/ForwardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReceiverServlet</servlet-name>
+  	<url-pattern>/ReceiverServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>tokenHandlerServlet</servlet-name>
+  	<url-pattern>/tokenHandlerServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

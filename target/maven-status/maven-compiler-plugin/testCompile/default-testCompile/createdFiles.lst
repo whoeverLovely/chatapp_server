@@ -1,0 +1,9 @@
+com/whoeverlovely/chatapptest/EncryptionTest.class
+com/whoeverlovely/chatapptest/MsgTest.class
+com/whoeverlovely/chatapptest/DBTest.class
+com/whoeverlovely/chatapptest/TestJunit.class
+com/whoeverlovely/chatapptest/MyKeyReader.class
+com/whoeverlovely/chatapptest/KeyczarTest.class
+com/whoeverlovely/chatapptest/AES_GCM.class
+com/whoeverlovely/chatapptest/Test.class
+com/whoeverlovely/chatapptest/HttpClientTest.class
